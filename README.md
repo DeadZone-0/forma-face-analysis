@@ -1,8 +1,14 @@
 # Forma — Face analysis studio
-Serve `dist/` over HTTP. No build or server API is required.
+Made by ze.
+
+Live app: https://deadzone-0.github.io/forma-face-analysis/
+
+Static HTML/CSS/JavaScript. No build or server API is required. Pushes to `main` deploy `dist/` to GitHub Pages through GitHub Actions.
+
+For local development, open http://localhost:4173 after starting the server below.
 
 ```
-python3 -m http.server 4173 --directory dist
+python3 -m http.server 4173 --bind 127.0.0.1 --directory dist
 node check.mjs
 ```
 
