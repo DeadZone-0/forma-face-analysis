@@ -1,1 +1,402 @@
-{"mode":"operate","colors":{"background":"#101615","panel":"#17201e","text":"#edf2eb","muted":"#a5b7ae","accent":"#bcdfb6","overlay":"#77d7b7"},"typography":{"body":"DM Sans","heading":"Manrope","bodySize":14,"minimumSize":11},"radius":{"panel":12,"control":6}}
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-15T14:49:10.359990+00:00",
+  "title": "Design System: Forma",
+  "extensions": {
+    "colorMeta": {
+      "bg": {
+        "role": "neutral",
+        "displayName": "Bg",
+        "tonalRamp": [
+          "oklch(15% 0.0094 184.13)",
+          "oklch(26% 0.0094 184.13)",
+          "oklch(38% 0.0094 184.13)",
+          "oklch(49% 0.0094 184.13)",
+          "oklch(61% 0.0094 184.13)",
+          "oklch(72% 0.0094 184.13)",
+          "oklch(84% 0.0094 184.13)",
+          "oklch(95% 0.0094 184.13)"
+        ]
+      },
+      "panel": {
+        "role": "neutral",
+        "displayName": "Panel",
+        "tonalRamp": [
+          "oklch(15% 0.0135 179.98)",
+          "oklch(26% 0.0135 179.98)",
+          "oklch(38% 0.0135 179.98)",
+          "oklch(49% 0.0135 179.98)",
+          "oklch(61% 0.0135 179.98)",
+          "oklch(72% 0.0135 179.98)",
+          "oklch(84% 0.0135 179.98)",
+          "oklch(95% 0.0135 179.98)"
+        ]
+      },
+      "panel2": {
+        "role": "neutral",
+        "displayName": "Panel2",
+        "tonalRamp": [
+          "oklch(15% 0.0163 176.44)",
+          "oklch(26% 0.0163 176.44)",
+          "oklch(38% 0.0163 176.44)",
+          "oklch(49% 0.0163 176.44)",
+          "oklch(61% 0.0163 176.44)",
+          "oklch(72% 0.0163 176.44)",
+          "oklch(84% 0.0163 176.44)",
+          "oklch(95% 0.0163 176.44)"
+        ]
+      },
+      "line": {
+        "role": "neutral",
+        "displayName": "Line",
+        "tonalRamp": [
+          "oklch(15% 0.0211 167.18)",
+          "oklch(26% 0.0211 167.18)",
+          "oklch(38% 0.0211 167.18)",
+          "oklch(49% 0.0211 167.18)",
+          "oklch(61% 0.0211 167.18)",
+          "oklch(72% 0.0211 167.18)",
+          "oklch(84% 0.0211 167.18)",
+          "oklch(95% 0.0211 167.18)"
+        ]
+      },
+      "text": {
+        "role": "neutral",
+        "displayName": "Text",
+        "tonalRamp": [
+          "oklch(15% 0.0107 136.56)",
+          "oklch(26% 0.0107 136.56)",
+          "oklch(38% 0.0107 136.56)",
+          "oklch(49% 0.0107 136.56)",
+          "oklch(61% 0.0107 136.56)",
+          "oklch(72% 0.0107 136.56)",
+          "oklch(84% 0.0107 136.56)",
+          "oklch(95% 0.0107 136.56)"
+        ]
+      },
+      "muted": {
+        "role": "neutral",
+        "displayName": "Muted",
+        "tonalRamp": [
+          "oklch(15% 0.0236 164.31)",
+          "oklch(26% 0.0236 164.31)",
+          "oklch(38% 0.0236 164.31)",
+          "oklch(49% 0.0236 164.31)",
+          "oklch(61% 0.0236 164.31)",
+          "oklch(72% 0.0236 164.31)",
+          "oklch(84% 0.0236 164.31)",
+          "oklch(95% 0.0236 164.31)"
+        ]
+      },
+      "accent": {
+        "role": "primary",
+        "displayName": "Accent",
+        "tonalRamp": [
+          "oklch(15% 0.0668 141.00)",
+          "oklch(26% 0.0668 141.00)",
+          "oklch(38% 0.0668 141.00)",
+          "oklch(49% 0.0668 141.00)",
+          "oklch(61% 0.0668 141.00)",
+          "oklch(72% 0.0668 141.00)",
+          "oklch(84% 0.0668 141.00)",
+          "oklch(95% 0.0668 141.00)"
+        ]
+      },
+      "teal": {
+        "role": "primary",
+        "displayName": "Teal",
+        "tonalRamp": [
+          "oklch(15% 0.1031 169.96)",
+          "oklch(26% 0.1031 169.96)",
+          "oklch(38% 0.1031 169.96)",
+          "oklch(49% 0.1031 169.96)",
+          "oklch(61% 0.1031 169.96)",
+          "oklch(72% 0.1031 169.96)",
+          "oklch(84% 0.1031 169.96)",
+          "oklch(95% 0.1031 169.96)"
+        ]
+      },
+      "primary-ink": {
+        "role": "primary",
+        "displayName": "Primary Ink",
+        "tonalRamp": [
+          "oklch(15% 0.0267 146.81)",
+          "oklch(26% 0.0267 146.81)",
+          "oklch(38% 0.0267 146.81)",
+          "oklch(49% 0.0267 146.81)",
+          "oklch(61% 0.0267 146.81)",
+          "oklch(72% 0.0267 146.81)",
+          "oklch(84% 0.0267 146.81)",
+          "oklch(95% 0.0267 146.81)"
+        ]
+      },
+      "primary-hover": {
+        "role": "primary",
+        "displayName": "Primary Hover",
+        "tonalRamp": [
+          "oklch(15% 0.0469 141.31)",
+          "oklch(26% 0.0469 141.31)",
+          "oklch(38% 0.0469 141.31)",
+          "oklch(49% 0.0469 141.31)",
+          "oklch(61% 0.0469 141.31)",
+          "oklch(72% 0.0469 141.31)",
+          "oklch(84% 0.0469 141.31)",
+          "oklch(95% 0.0469 141.31)"
+        ]
+      },
+      "stage": {
+        "role": "neutral",
+        "displayName": "Stage",
+        "tonalRamp": [
+          "oklch(15% 0.0145 172.36)",
+          "oklch(26% 0.0145 172.36)",
+          "oklch(38% 0.0145 172.36)",
+          "oklch(49% 0.0145 172.36)",
+          "oklch(61% 0.0145 172.36)",
+          "oklch(72% 0.0145 172.36)",
+          "oklch(84% 0.0145 172.36)",
+          "oklch(95% 0.0145 172.36)"
+        ]
+      },
+      "chip-selected": {
+        "role": "neutral",
+        "displayName": "Chip Selected",
+        "tonalRamp": [
+          "oklch(15% 0.0283 154.65)",
+          "oklch(26% 0.0283 154.65)",
+          "oklch(38% 0.0283 154.65)",
+          "oklch(49% 0.0283 154.65)",
+          "oklch(61% 0.0283 154.65)",
+          "oklch(72% 0.0283 154.65)",
+          "oklch(84% 0.0283 154.65)",
+          "oklch(95% 0.0283 154.65)"
+        ]
+      },
+      "chip-border": {
+        "role": "neutral",
+        "displayName": "Chip Border",
+        "tonalRamp": [
+          "oklch(15% 0.0423 141.25)",
+          "oklch(26% 0.0423 141.25)",
+          "oklch(38% 0.0423 141.25)",
+          "oklch(49% 0.0423 141.25)",
+          "oklch(61% 0.0423 141.25)",
+          "oklch(72% 0.0423 141.25)",
+          "oklch(84% 0.0423 141.25)",
+          "oklch(95% 0.0423 141.25)"
+        ]
+      },
+      "metric-selected": {
+        "role": "neutral",
+        "displayName": "Metric Selected",
+        "tonalRamp": [
+          "oklch(15% 0.0275 165.44)",
+          "oklch(26% 0.0275 165.44)",
+          "oklch(38% 0.0275 165.44)",
+          "oklch(49% 0.0275 165.44)",
+          "oklch(61% 0.0275 165.44)",
+          "oklch(72% 0.0275 165.44)",
+          "oklch(84% 0.0275 165.44)",
+          "oklch(95% 0.0275 165.44)"
+        ]
+      },
+      "error": {
+        "role": "neutral",
+        "displayName": "Error",
+        "tonalRamp": [
+          "oklch(15% 0.0751 32.09)",
+          "oklch(26% 0.0751 32.09)",
+          "oklch(38% 0.0751 32.09)",
+          "oklch(49% 0.0751 32.09)",
+          "oklch(61% 0.0751 32.09)",
+          "oklch(72% 0.0751 32.09)",
+          "oklch(84% 0.0751 32.09)",
+          "oklch(95% 0.0751 32.09)"
+        ]
+      },
+      "landmark-line": {
+        "role": "primary",
+        "displayName": "Landmark Line",
+        "tonalRamp": [
+          "oklch(15% 0.1259 166.25)",
+          "oklch(26% 0.1259 166.25)",
+          "oklch(38% 0.1259 166.25)",
+          "oklch(49% 0.1259 166.25)",
+          "oklch(61% 0.1259 166.25)",
+          "oklch(72% 0.1259 166.25)",
+          "oklch(84% 0.1259 166.25)",
+          "oklch(95% 0.1259 166.25)"
+        ]
+      },
+      "landmark-point": {
+        "role": "primary",
+        "displayName": "Landmark Point",
+        "tonalRamp": [
+          "oklch(15% 0.0839 156.96)",
+          "oklch(26% 0.0839 156.96)",
+          "oklch(38% 0.0839 156.96)",
+          "oklch(49% 0.0839 156.96)",
+          "oklch(61% 0.0839 156.96)",
+          "oklch(72% 0.0839 156.96)",
+          "oklch(84% 0.0839 156.96)",
+          "oklch(95% 0.0839 156.96)"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "headline": {
+        "displayName": "Page headline",
+        "purpose": "Responsive page title."
+      },
+      "title": {
+        "displayName": "Report title",
+        "purpose": "Pane headings."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Interface prose."
+      },
+      "label": {
+        "displayName": "Supporting label",
+        "purpose": "Metadata, status and measurement explanations."
+      },
+      "button": {
+        "displayName": "Action label",
+        "purpose": "Filled and bordered actions."
+      }
+    },
+    "shadows": [
+      {
+        "name": "image-metadata",
+        "value": "0 1px 4px #000",
+        "purpose": "Text shadow on metadata over photography; containers have no shadows."
+      }
+    ],
+    "motion": [
+      {
+        "name": "button-background",
+        "value": "background .18s",
+        "purpose": "Button hover color transition; removed under reduced motion."
+      },
+      {
+        "name": "spinner",
+        "value": "spin 1s linear infinite",
+        "purpose": "Processing rotation; stopped under reduced motion."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "large-stage",
+        "value": "1500px"
+      },
+      {
+        "name": "compact-desktop",
+        "value": "1000px"
+      },
+      {
+        "name": "stacked",
+        "value": "720px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary upload button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "The primary photo-upload action.",
+      "html": "<button class=\"ds-primary\">Upload your photo</button>",
+      "css": ".ds-primary{font-family:'DM Sans',sans-serif;line-height:1.6;border-radius:6px;padding:11px 17px;font-size:12px;font-weight:600;cursor:pointer;transition:background .18s;background:var(--accent);color:#172318;border:0}.ds-primary:hover{background:#d3eccf}.ds-primary:focus-visible{outline:2px solid var(--teal);outline-offset:5px}.ds-primary:disabled{opacity:.4;cursor:not-allowed}@media(prefers-reduced-motion:reduce){.ds-primary{transition:none}}"
+    },
+    {
+      "name": "Secondary button",
+      "kind": "button",
+      "refersTo": "button-secondary",
+      "description": "Bordered report export action.",
+      "html": "<button class=\"ds-secondary\">Export report \u2197</button>",
+      "css": ".ds-secondary{font-family:'DM Sans',sans-serif;line-height:1.6;border-radius:6px;padding:11px 17px;font-size:12px;font-weight:600;cursor:pointer;transition:background .18s;background:transparent;color:var(--text);border:1px solid var(--line)}.ds-secondary:hover{background:var(--panel2)}.ds-secondary:focus-visible{outline:2px solid var(--teal);outline-offset:5px}.ds-secondary:disabled{opacity:.4;cursor:not-allowed}@media(prefers-reduced-motion:reduce){.ds-secondary{transition:none}}"
+    },
+    {
+      "name": "Text action",
+      "kind": "button",
+      "refersTo": "button-text",
+      "description": "Low-emphasis in-context action.",
+      "html": "<button class=\"ds-text\">Try example</button>",
+      "css": ".ds-text{font-family:'DM Sans',sans-serif;line-height:1.6;background:none;color:var(--accent);border:0;padding:6px 0;font-size:12px;cursor:pointer}.ds-text:hover{text-decoration:underline;text-underline-offset:4px}.ds-text:focus-visible{outline:2px solid var(--teal);outline-offset:5px}"
+    },
+    {
+      "name": "Overlay chip",
+      "kind": "chip",
+      "refersTo": "chip-selected",
+      "description": "Pressed state identifies the visible geometry mode.",
+      "html": "<button class=\"ds-chip\" aria-pressed=\"true\">Proportions</button>",
+      "css": ".ds-chip{font-family:'DM Sans',sans-serif;line-height:1.6;background:transparent;border:1px solid transparent;border-radius:4px;padding:5px 9px;color:var(--muted);font-size:11px;cursor:pointer}.ds-chip:hover{color:var(--text);background:var(--panel2)}.ds-chip[aria-pressed=true]{background:#2d3d32;border-color:#485b45;color:var(--accent)}.ds-chip:focus-visible{outline:2px solid var(--teal);outline-offset:5px}"
+    },
+    {
+      "name": "Report tabs",
+      "kind": "nav",
+      "refersTo": "workspace",
+      "description": "A flat tab strip with a thin selected underline.",
+      "html": "<div class=\"ds-tabs\" role=\"tablist\" aria-label=\"Report sections\"><button role=\"tab\" aria-selected=\"true\">Overview</button><button role=\"tab\" aria-selected=\"false\">Measurements</button></div>",
+      "css": ".ds-tabs{display:flex;gap:23px;border-bottom:1px solid var(--line)}.ds-tabs button{font-family:'DM Sans',sans-serif;line-height:1.6;background:none;border:0;border-bottom:2px solid transparent;color:var(--muted);font-size:12px;padding:0 0 12px;cursor:pointer}.ds-tabs button[aria-selected=true]{color:var(--accent);border-color:var(--accent)}.ds-tabs button:focus-visible{outline:2px solid var(--teal);outline-offset:5px}"
+    },
+    {
+      "name": "Header navigation",
+      "kind": "nav",
+      "refersTo": "workspace",
+      "description": "Muted header links with a brighter current destination.",
+      "html": "<nav class=\"ds-nav\"><a href=\"#analysis\" aria-current=\"page\">Analysis</a><a href=\"#methodology\">Methodology</a></nav>",
+      "css": ".ds-nav{display:flex;gap:32px;font-family:'DM Sans',sans-serif;line-height:1.6;}.ds-nav a{text-decoration:none;color:var(--muted);font-size:13px}.ds-nav a[aria-current]{color:var(--text)}.ds-nav a:focus-visible{outline:2px solid var(--teal);outline-offset:5px}"
+    },
+    {
+      "name": "Workspace surface",
+      "kind": "card",
+      "refersTo": "workspace",
+      "description": "A single bordered frame containing paired analysis panes.",
+      "html": "<section class=\"ds-workspace\"><div>Portrait analysis</div><div>Facial breakdown</div></section>",
+      "css": ".ds-workspace{display:grid;grid-template-columns:1fr 1.03fr;border:1px solid var(--line);border-radius:12px;overflow:hidden;background:var(--panel);color:var(--text);font-family:'DM Sans',sans-serif;line-height:1.6;}.ds-workspace>div{padding:24px}.ds-workspace>div:first-child{border-right:1px solid var(--line)}@media(max-width:720px){.ds-workspace{grid-template-columns:1fr}.ds-workspace>div:first-child{border-right:0;border-bottom:1px solid var(--line)}}"
+    },
+    {
+      "name": "Selected measurement",
+      "kind": "custom",
+      "refersTo": "metric-selected",
+      "description": "Selected report row linked to portrait geometry; example value is illustrative.",
+      "html": "<div class=\"ds-metric\"><div><button>Eye spacing</button><span>1.02</span></div><p>Distance between eyes relative to eye width.</p></div>",
+      "css": ".ds-metric{font-family:'DM Sans',sans-serif;line-height:1.6;padding:12px 10px;border-bottom:1px solid var(--line);background:#25372f;border-radius:4px;color:var(--text)}.ds-metric>div{display:flex;justify-content:space-between;gap:8px;font-size:12px}.ds-metric button{background:none;border:0;padding:0;color:inherit;font:inherit;text-align:left;cursor:pointer}.ds-metric span{font-variant-numeric:tabular-nums;color:var(--accent);white-space:nowrap}.ds-metric p{font-size:11px;margin:5px 0 0;color:var(--muted)}.ds-metric button:focus-visible{outline:2px solid var(--teal);outline-offset:5px}"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Geometry Workbench",
+    "overview": "Forma is an operating tool for inspecting a portrait and the measurements derived from it. Deep green surfaces recede behind the photograph; pale green actions and teal landmark geometry guide attention. The interface stays precise and restrained through compact labels, clear dividers, and quietly differentiated states.\n\nThis document records the implemented workspace, rather than an approved visual comp. The north star names the observed direction; it is not a separately approved brand identity.",
+    "keyCharacteristics": [
+      "Portrait-led analysis with a companion report.",
+      "Dark green tonal surfaces and pale green actions.",
+      "Border-separated measurements linked to visible geometry.",
+      "Compact sans-serif typography with explicit focus and selected states."
+    ],
+    "rules": [
+      {
+        "name": "The Geometry Rule",
+        "body": "Reserve the brightest green lines and points for geometry drawn over the photograph; keep interface surfaces quiet.",
+        "section": "colors"
+      },
+      {
+        "name": "The Shared Frame Rule",
+        "body": "Keep the analysis panes inside one continuous bordered surface and separate report rows with lines.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "Do preserve the portrait-to-measurement relationship and visible selected states.",
+      "Do use the shared frame, tonal fills, and dividers for structure.",
+      "Do keep keyboard focus conspicuous and respect reduced motion.",
+      "Do stack the portrait before the report on small screens."
+    ],
+    "donts": [
+      "Don't turn each measurement into a nested card.",
+      "Don't apply canvas-bright landmark colors to large interface surfaces.",
+      "Don't shrink supporting text below the implemented 11px label size.",
+      "Don't hide the distinction between sample and uploaded-photo results."
+    ]
+  }
+}
